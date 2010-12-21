@@ -23,6 +23,7 @@ class ConfigurationBlock(Directive):
         'html+php':        'PHP',
         'ini':             'INI',
         'php-annotations': 'Annotations',
+        'javascript':      'Javascript',
     }
 
     def run(self):
